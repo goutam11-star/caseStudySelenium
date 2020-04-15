@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [caseStudy Selenium]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="caseStudy Slenium Test(failed)">
+    <parameter name="FirefoxDriverPath" value="/Users/goutambalasubramanian/Downloads/chromedriver"/>
+    <parameter name="property3Path" value="/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input3.Properties"/>
+    <parameter name="property1Path" value="/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input1.Properties"/>
+    <parameter name="excellFileNAme" value="caseStudyAssgnment.xlsx"/>
+    <parameter name="url5" value="https://www.makemytrip.com/"/>
+    <parameter name="property2Path" value="/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input2.Properties"/>
+    <parameter name="url3" value="https://www.olaz.de/de-de"/>
+    <parameter name="readFromExcelPath" value="/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/caseStudyAssgnment.xlsx"/>
+    <parameter name="url4" value="https://www.olay.es/es-es"/>
+    <parameter name="url1" value="https://demoqa.com/"/>
+    <parameter name="url2" value="https://www.olay.co.uk/en-gb"/>
+    <parameter name="excellSheetName" value="Sheet1"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="ChromeDriverPath" value="/Users/goutambalasubramanian/Downloads/geckodriver"/>
+    <parameter name="failedScreenshotForAssignment" value="/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots"/>
+    <classes>
+      <class name="caseStudySelenium.caseStudySelenium.assignment3">
+        <methods>
+          <include name="tear"/>
+          <include name="makeMyTrip" invocation-numbers="0"/>
+          <include name="openBrowser"/>
+          <include name="getScreenshotForFailedTestCase"/>
+        </methods>
+      </class> <!-- caseStudySelenium.caseStudySelenium.assignment3 -->
+    </classes>
+  </test> <!-- caseStudy Slenium Test(failed) -->
+</suite> <!-- Failed suite [caseStudy Selenium] -->

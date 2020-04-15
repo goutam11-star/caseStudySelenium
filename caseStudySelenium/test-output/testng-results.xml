@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-16T02:40:51 IST" name="caseStudy Selenium" finished-at="2020-04-16T02:43:05 IST" duration-ms="134317">
+    <groups>
+    </groups>
+    <test started-at="2020-04-16T02:40:51 IST" name="caseStudy Slenium Test" finished-at="2020-04-16T02:43:05 IST" duration-ms="134317">
+      <class name="caseStudySelenium.caseStudySelenium.assignment3">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment3@3c72f59f]" started-at="2020-04-16T02:42:46 IST" name="openBrowser" finished-at="2020-04-16T02:42:47 IST" duration-ms="1572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/Downloads/geckodriver]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/Downloads/chromedriver]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input3.Properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="makeMyTrip(java.lang.String)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment3@3c72f59f]" started-at="2020-04-16T02:42:47 IST" name="makeMyTrip" finished-at="2020-04-16T02:43:05 IST" duration-ms="17670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.makemytrip.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeMyTrip -->
+        <test-method is-config="true" signature="getScreenshotForFailedTestCase(java.lang.String, org.testng.ITestResult)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment3@3c72f59f]" started-at="2020-04-16T02:43:05 IST" name="getScreenshotForFailedTestCase" finished-at="2020-04-16T02:43:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=makeMyTrip status=SUCCESS method=assignment3.makeMyTrip(java.lang.String)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment3@3c72f59f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotForFailedTestCase -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment3@3c72f59f]" started-at="2020-04-16T02:43:05 IST" name="tear" finished-at="2020-04-16T02:43:05 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- caseStudySelenium.caseStudySelenium.assignment3 -->
+      <class name="caseStudySelenium.caseStudySelenium.assignment1">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:40:51 IST" name="openBrowser" finished-at="2020-04-16T02:40:53 IST" duration-ms="2543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/Downloads/geckodriver]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/Downloads/chromedriver]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input1.Properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="clickOnEachItem(java.lang.String)[pri:1, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:40:53 IST" name="clickOnEachItem" finished-at="2020-04-16T02:41:00 IST" duration-ms="6374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEachItem -->
+        <test-method is-config="true" signature="getScreenshotForFailedTestCase(java.lang.String, org.testng.ITestResult)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:00 IST" name="getScreenshotForFailedTestCase" finished-at="2020-04-16T02:41:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=clickOnEachItem status=SUCCESS method=assignment1.clickOnEachItem(java.lang.String)[pri:1, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotForFailedTestCase -->
+        <test-method signature="fillTheForm(java.lang.String)[pri:2, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:00 IST" name="fillTheForm" finished-at="2020-04-16T02:41:06 IST" duration-ms="6672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheForm -->
+        <test-method is-config="true" signature="getScreenshotForFailedTestCase(java.lang.String, org.testng.ITestResult)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:06 IST" name="getScreenshotForFailedTestCase" finished-at="2020-04-16T02:41:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=fillTheForm status=SUCCESS method=assignment1.fillTheForm(java.lang.String)[pri:2, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotForFailedTestCase -->
+        <test-method signature="dragAndDropTarget(java.lang.String)[pri:3, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:06 IST" name="dragAndDropTarget" finished-at="2020-04-16T02:41:08 IST" duration-ms="1612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropTarget -->
+        <test-method is-config="true" signature="getScreenshotForFailedTestCase(java.lang.String, org.testng.ITestResult)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:08 IST" name="getScreenshotForFailedTestCase" finished-at="2020-04-16T02:41:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=dragAndDropTarget status=SUCCESS method=assignment1.dragAndDropTarget(java.lang.String)[pri:3, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotForFailedTestCase -->
+        <test-method signature="selectDateOfBirthInACalendar(java.lang.String)[pri:4, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:08 IST" name="selectDateOfBirthInACalendar" finished-at="2020-04-16T02:41:14 IST" duration-ms="6379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDateOfBirthInACalendar -->
+        <test-method is-config="true" signature="getScreenshotForFailedTestCase(java.lang.String, org.testng.ITestResult)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:14 IST" name="getScreenshotForFailedTestCase" finished-at="2020-04-16T02:41:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=selectDateOfBirthInACalendar status=SUCCESS method=assignment1.selectDateOfBirthInACalendar(java.lang.String)[pri:4, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotForFailedTestCase -->
+        <test-method signature="selectAllTheMenuOptionsOneByOne(java.lang.String)[pri:5, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:14 IST" name="selectAllTheMenuOptionsOneByOne" finished-at="2020-04-16T02:41:16 IST" duration-ms="1797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllTheMenuOptionsOneByOne -->
+        <test-method is-config="true" signature="getScreenshotForFailedTestCase(java.lang.String, org.testng.ITestResult)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:16 IST" name="getScreenshotForFailedTestCase" finished-at="2020-04-16T02:41:16 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=selectAllTheMenuOptionsOneByOne status=SUCCESS method=assignment1.selectAllTheMenuOptionsOneByOne(java.lang.String)[pri:5, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotForFailedTestCase -->
+        <test-method signature="selectRentalCarHorizontalBlock(java.lang.String)[pri:6, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:16 IST" name="selectRentalCarHorizontalBlock" finished-at="2020-04-16T02:41:19 IST" duration-ms="2516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRentalCarHorizontalBlock -->
+        <test-method is-config="true" signature="getScreenshotForFailedTestCase(java.lang.String, org.testng.ITestResult)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:19 IST" name="getScreenshotForFailedTestCase" finished-at="2020-04-16T02:41:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=selectRentalCarHorizontalBlock status=SUCCESS method=assignment1.selectRentalCarHorizontalBlock(java.lang.String)[pri:6, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotForFailedTestCase -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment1@358ee631]" started-at="2020-04-16T02:41:19 IST" name="tear" finished-at="2020-04-16T02:41:19 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- caseStudySelenium.caseStudySelenium.assignment1 -->
+      <class name="caseStudySelenium.caseStudySelenium.assignment2">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd]" started-at="2020-04-16T02:41:19 IST" name="openBrowser" finished-at="2020-04-16T02:41:21 IST" duration-ms="2495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/Downloads/geckodriver]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/Downloads/chromedriver]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input2.Properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="registerInAll3Links(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd]" started-at="2020-04-16T02:41:21 IST" name="registerInAll3Links" finished-at="2020-04-16T02:41:54 IST" duration-ms="32339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.olay.co.uk/en-gb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.olaz.de/de-de]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.olay.es/es-es]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerInAll3Links -->
+        <test-method is-config="true" signature="getScreenshotForFailedTestCase(java.lang.String, org.testng.ITestResult)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd]" started-at="2020-04-16T02:41:54 IST" name="getScreenshotForFailedTestCase" finished-at="2020-04-16T02:41:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=registerInAll3Links status=SUCCESS method=assignment2.registerInAll3Links(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotForFailedTestCase -->
+        <test-method signature="InValidLoginAll3Links(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd]" started-at="2020-04-16T02:41:54 IST" name="InValidLoginAll3Links" finished-at="2020-04-16T02:42:16 IST" duration-ms="22509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.olay.co.uk/en-gb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.olaz.de/de-de]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.olay.es/es-es]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidLoginAll3Links -->
+        <test-method is-config="true" signature="getScreenshotForFailedTestCase(java.lang.String, org.testng.ITestResult)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd]" started-at="2020-04-16T02:42:16 IST" name="getScreenshotForFailedTestCase" finished-at="2020-04-16T02:42:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=InValidLoginAll3Links status=SUCCESS method=assignment2.InValidLoginAll3Links(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotForFailedTestCase -->
+        <test-method signature="LoginAll3Links(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd]" started-at="2020-04-16T02:42:16 IST" name="LoginAll3Links" finished-at="2020-04-16T02:42:34 IST" duration-ms="17793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.olay.co.uk/en-gb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.olaz.de/de-de]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.olay.es/es-es]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAll3Links -->
+        <test-method is-config="true" signature="getScreenshotForFailedTestCase(java.lang.String, org.testng.ITestResult)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd]" started-at="2020-04-16T02:42:34 IST" name="getScreenshotForFailedTestCase" finished-at="2020-04-16T02:42:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=LoginAll3Links status=SUCCESS method=assignment2.LoginAll3Links(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotForFailedTestCase -->
+        <test-method signature="readFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd]" started-at="2020-04-16T02:42:34 IST" name="readFromExcel" finished-at="2020-04-16T02:42:45 IST" duration-ms="11386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.olay.co.uk/en-gb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/caseStudyAssgnment.xlsx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[caseStudyAssgnment.xlsx]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sheet1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFromExcel -->
+        <test-method is-config="true" signature="getScreenshotForFailedTestCase(java.lang.String, org.testng.ITestResult)[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd]" started-at="2020-04-16T02:42:45 IST" name="getScreenshotForFailedTestCase" finished-at="2020-04-16T02:42:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=readFromExcel status=SUCCESS method=assignment2.readFromExcel(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshotForFailedTestCase -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:caseStudySelenium.caseStudySelenium.assignment2@ec756bd]" started-at="2020-04-16T02:42:45 IST" name="tear" finished-at="2020-04-16T02:42:46 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- caseStudySelenium.caseStudySelenium.assignment2 -->
+    </test> <!-- caseStudy Slenium Test -->
+  </suite> <!-- caseStudy Selenium -->
+</testng-results>
