@@ -1,3 +1,9 @@
+/*
+ * 
+ *   Author Name : Goutam
+ */
+
+
 package caseStudySelenium.caseStudySelenium;
 
 import java.io.File;
@@ -23,6 +29,7 @@ public class additionalSteps implements assignment1Locators, assignment2Locators
 
 	public static Properties prop;
 
+	
 	public static WebDriver driver;
 	File file = null;
 	FileInputStream inputStream = null;
