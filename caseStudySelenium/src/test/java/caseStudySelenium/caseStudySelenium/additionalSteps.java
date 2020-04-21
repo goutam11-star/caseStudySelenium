@@ -28,7 +28,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class additionalSteps implements assignment1Locators, assignment2Locators, assignment3Locators {
 
 	public static Properties prop;
-
 	
 	public static WebDriver driver;
 	File file = null;
