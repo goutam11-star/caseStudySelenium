@@ -17,19 +17,19 @@
 			value="/Users/goutambalasubramanian/Downloads/chromedriver" />
 
 		<parameter name="failedScreenshotForAssignment"
-			value="/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/failedScreenshots" />
+			value="/Users/goutambalasubramanian/git/caseStudySelenium/caseStudySelenium/failedScreenshots" />
 
 		<parameter name="property1Path"
-			value="/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input1.Properties" />
+			value="/Users/goutambalasubramanian/git/caseStudySelenium/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input1.Properties" />
 
 		<parameter name="property2Path"
-			value="/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input2.Properties" />
+			value="/Users/goutambalasubramanian/git/caseStudySelenium/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input2.Properties" />
 
 		<parameter name="property3Path"
-			value="/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input3.Properties" />
+			value="/Users/goutambalasubramanian/git/caseStudySelenium/caseStudySelenium/src/test/java/caseStudySelenium/caseStudySelenium/input3.Properties" />
 
 		<parameter name="readFromExcelPath"
-			value="/Users/goutambalasubramanian/eclipse-workspace/caseStudySelenium/caseStudyAssgnment.xlsx" />
+			value="/Users/goutambalasubramanian/git/caseStudySelenium/caseStudySelenium/caseStudyAssgnment.xlsx" />
 
 		<parameter name="excellFileNAme"
 			value="caseStudyAssgnment.xlsx" />
